@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Screenshots
+.playwright-screenshots/
+
+#PyCharm
+.idea/
