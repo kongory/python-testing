@@ -27,7 +27,7 @@ jobs:
         pytest --alluredir=/allure-report
 
     - name: Create Report
-        if: always()
+      if: always()
         # trying to save history of previous runs if it is exists
         run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && allure serve /allure-report
           - uses: actions/upload-artifact@v1
