@@ -18,9 +18,9 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        apt-add-repository ppa:qameta/allure
-        apt-get update
-        apt-get install allure
+        sudo apt-add-repository ppa:qameta/allure
+        sudo apt-get update
+        sudo apt-get install allure
         python -m pip install --upgrade pip
         pip install playwright
         python -m playwright install
