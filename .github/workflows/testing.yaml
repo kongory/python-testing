@@ -25,6 +25,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --alluredir=allure-report
+        allure serve allure-report
 
     - name: Allure Report with history
       uses: simple-elf/allure-report-action@v1.3
