@@ -1,12 +1,12 @@
 {
-  "uid" : "c0493b205e6ad1a9",
-  "name" : "test_all_bookings",
-  "fullName" : "tests.api.test_booking#test_all_bookings",
-  "historyId" : "d3fce00b758a371b161cb3ad1cfc1baa",
+  "uid" : "6a85998a63679094",
+  "name" : "test_delete_booking",
+  "fullName" : "tests.api.test_booking#test_delete_booking",
+  "historyId" : "bc590f9129e47c404aedde7ff501ddbc",
   "time" : {
-    "start" : 1607085513644,
-    "stop" : 1607085513867,
-    "duration" : 223
+    "start" : 1607096756755,
+    "stop" : 1607096757078,
+    "duration" : 323
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,33 +14,48 @@
   "beforeStages" : [ {
     "name" : "base_url",
     "time" : {
-      "start" : 1607085513643,
-      "stop" : 1607085513643,
+      "start" : 1607096754026,
+      "stop" : 1607096754026,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   }, {
     "name" : "_verify_url",
     "time" : {
-      "start" : 1607085513643,
-      "stop" : 1607085513643,
+      "start" : 1607096754026,
+      "stop" : 1607096754026,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
+  }, {
+    "name" : "authorize",
+    "time" : {
+      "start" : 1607096756453,
+      "stop" : 1607096756754,
+      "duration" : 301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,10 +66,10 @@
     "value" : "test_booking"
   }, {
     "name" : "host",
-    "value" : "fv-az29-450"
+    "value" : "fv-az76-468"
   }, {
     "name" : "thread",
-    "value" : "3944-MainThread"
+    "value" : "4041-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -78,6 +93,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c0493b205e6ad1a9.json",
+  "source" : "6a85998a63679094.json",
   "parameterValues" : [ ]
 }

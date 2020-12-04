@@ -1,5 +1,5 @@
 {
-  "0c79d9a51fd8084cac35dea5592121a7" : {
+  "6d7f73178b443f38023a3fc7b8ccf504" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,17 +9,17 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "283a6f3fb6b1e3f9",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/283a6f3fb6b1e3f9",
+      "uid" : "a1152a73b885052b",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/a1152a73b885052b",
       "status" : "passed",
       "time" : {
-        "start" : 1607085514244,
-        "stop" : 1607085514409,
-        "duration" : 165
+        "start" : 1607096765786,
+        "stop" : 1607096771407,
+        "duration" : 5621
       }
     } ]
   },
-  "7a941ba5faa15167ef92b002214d7d6f" : {
+  "efb49118fa5f13d4c56965976122209c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a8c3701650e93d14",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/a8c3701650e93d14",
+      "uid" : "67e1c8cc97ea8f88",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/67e1c8cc97ea8f88",
       "status" : "passed",
       "time" : {
-        "start" : 1607085514590,
-        "stop" : 1607085514774,
-        "duration" : 184
+        "start" : 1607096761628,
+        "stop" : 1607096765729,
+        "duration" : 4101
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c0493b205e6ad1a9",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/c0493b205e6ad1a9",
+      "uid" : "de6aa7af6677f21f",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/de6aa7af6677f21f",
       "status" : "passed",
       "time" : {
-        "start" : 1607085513644,
-        "stop" : 1607085513867,
-        "duration" : 223
+        "start" : 1607096754027,
+        "stop" : 1607096754425,
+        "duration" : 398
       }
     } ]
   },
@@ -69,53 +69,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "89dcf3a9ca88d0bf",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/89dcf3a9ca88d0bf",
+      "uid" : "b3b8a3cf20d56a7f",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/b3b8a3cf20d56a7f",
       "status" : "passed",
       "time" : {
-        "start" : 1607085513879,
-        "stop" : 1607085514056,
-        "duration" : 177
-      }
-    } ]
-  },
-  "bc590f9129e47c404aedde7ff501ddbc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b73a9752af8dbdc4",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/b73a9752af8dbdc4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1607085515134,
-        "stop" : 1607085515297,
-        "duration" : 163
-      }
-    } ]
-  },
-  "1a86fa80e627eda35f5b908dffdb1ff9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a5d9f9cb321ef340",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/a5d9f9cb321ef340",
-      "status" : "passed",
-      "time" : {
-        "start" : 1607085517015,
-        "stop" : 1607085519495,
-        "duration" : 2480
+        "start" : 1607096754486,
+        "stop" : 1607096754809,
+        "duration" : 323
       }
     } ]
   },
@@ -129,13 +89,193 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3dec58660ab3b8f8",
-      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/3dec58660ab3b8f8",
+      "uid" : "b2401bf9d8905d01",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/b2401bf9d8905d01",
       "status" : "passed",
       "time" : {
-        "start" : 1607085514777,
-        "stop" : 1607085514944,
-        "duration" : 167
+        "start" : 1607096756124,
+        "stop" : 1607096756451,
+        "duration" : 327
+      }
+    } ]
+  },
+  "1a86fa80e627eda35f5b908dffdb1ff9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7db46b2a9a442f6f",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/7db46b2a9a442f6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096758691,
+        "stop" : 1607096761569,
+        "duration" : 2878
+      }
+    } ]
+  },
+  "8e0aad4afa34297ea257ac7d43740b45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a02a202b0e4f0b81",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/a02a202b0e4f0b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096771464,
+        "stop" : 1607096780021,
+        "duration" : 8557
+      }
+    } ]
+  },
+  "0c79d9a51fd8084cac35dea5592121a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d8026e6a5e8d1e8",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/5d8026e6a5e8d1e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096755138,
+        "stop" : 1607096755478,
+        "duration" : 340
+      }
+    } ]
+  },
+  "31aa556d6af3a93f16c6c66fa1e0b1fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e65c8a0baf7e7d86",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/e65c8a0baf7e7d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096780072,
+        "stop" : 1607096785880,
+        "duration" : 5808
+      }
+    } ]
+  },
+  "7a941ba5faa15167ef92b002214d7d6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74664ef4766663ad",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/74664ef4766663ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096755809,
+        "stop" : 1607096756120,
+        "duration" : 311
+      }
+    } ]
+  },
+  "2dc21bfdfce3d3e31ee0e60715012891" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90071c8084923859",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/90071c8084923859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096798118,
+        "stop" : 1607096803099,
+        "duration" : 4981
+      }
+    } ]
+  },
+  "8fb55a2f18268e8a14aba48c3cf1c0ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45be1ffd8dfe146b",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/45be1ffd8dfe146b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096791175,
+        "stop" : 1607096798066,
+        "duration" : 6891
+      }
+    } ]
+  },
+  "bc590f9129e47c404aedde7ff501ddbc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a85998a63679094",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/6a85998a63679094",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096756755,
+        "stop" : 1607096757078,
+        "duration" : 323
+      }
+    } ]
+  },
+  "3ef8ab8accebac81a69e5f2ec76be074" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "472cec361dfa23b0",
+      "reportUrl" : "https://kongory.github.io/python-testing/18//#testresult/472cec361dfa23b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607096785932,
+        "stop" : 1607096791121,
+        "duration" : 5189
       }
     } ]
   }

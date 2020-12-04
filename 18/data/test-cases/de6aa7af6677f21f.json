@@ -1,12 +1,12 @@
 {
-  "uid" : "89dcf3a9ca88d0bf",
-  "name" : "test_create_booking",
-  "fullName" : "tests.api.test_booking#test_create_booking",
-  "historyId" : "26a9556c0d90411ac8ba54ccb68b38bd",
+  "uid" : "de6aa7af6677f21f",
+  "name" : "test_all_bookings",
+  "fullName" : "tests.api.test_booking#test_all_bookings",
+  "historyId" : "d3fce00b758a371b161cb3ad1cfc1baa",
   "time" : {
-    "start" : 1607085513879,
-    "stop" : 1607085514056,
-    "duration" : 177
+    "start" : 1607096754027,
+    "stop" : 1607096754425,
+    "duration" : 398
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,33 +14,33 @@
   "beforeStages" : [ {
     "name" : "base_url",
     "time" : {
-      "start" : 1607085513643,
-      "stop" : 1607085513643,
+      "start" : 1607096754026,
+      "stop" : 1607096754026,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   }, {
     "name" : "_verify_url",
     "time" : {
-      "start" : 1607085513643,
-      "stop" : 1607085513643,
+      "start" : 1607096754026,
+      "stop" : 1607096754026,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   } ],
   "afterStages" : [ ],
   "labels" : [ {
@@ -51,10 +51,10 @@
     "value" : "test_booking"
   }, {
     "name" : "host",
-    "value" : "fv-az29-450"
+    "value" : "fv-az76-468"
   }, {
     "name" : "thread",
-    "value" : "3944-MainThread"
+    "value" : "4041-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "89dcf3a9ca88d0bf.json",
+  "source" : "de6aa7af6677f21f.json",
   "parameterValues" : [ ]
 }
