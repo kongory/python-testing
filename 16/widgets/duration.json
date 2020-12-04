@@ -1,0 +1,141 @@
+[ {
+  "uid" : "b151b254a2ad4d5",
+  "name" : "test_create_booking",
+  "time" : {
+    "start" : 1607081693499,
+    "stop" : 1607081693683,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ab9b940d0d8ec1",
+  "name" : "test_sign_in_error[chromium-bbb@bb.bb-zxcv545]",
+  "time" : {
+    "start" : 1607081706891,
+    "stop" : 1607081710443,
+    "duration" : 3552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71c6998dd49843d1",
+  "name" : "test_email_error[chromium-aaaa@aa,aa-123qew]",
+  "time" : {
+    "start" : 1607081703437,
+    "stop" : 1607081706837,
+    "duration" : 3400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d46bfc147acfc5a",
+  "name" : "test_cart[chromium]",
+  "time" : {
+    "start" : 1607081697589,
+    "stop" : 1607081699749,
+    "duration" : 2160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7704a868127114ee",
+  "name" : "test_sign_in_error[chromium-aaaa@aa.aa-123qew]",
+  "time" : {
+    "start" : 1607081699797,
+    "stop" : 1607081703389,
+    "duration" : 3592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dbd0a26d31a3191",
+  "name" : "test_all_bookings",
+  "time" : {
+    "start" : 1607081693249,
+    "stop" : 1607081693496,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c132098ca96dd6e",
+  "name" : "test_update_booking",
+  "time" : {
+    "start" : 1607081693856,
+    "stop" : 1607081694020,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67e07832ec113afe",
+  "name" : "test_patch_booking",
+  "time" : {
+    "start" : 1607081694210,
+    "stop" : 1607081694382,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "426e52b17d568201",
+  "name" : "test_confirmation[chromium]",
+  "time" : {
+    "start" : 1607081695471,
+    "stop" : 1607081697542,
+    "duration" : 2071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c50289d764a841c",
+  "name" : "test_sign_in_error[chromium-cccc@ccc.cc-dfdsf7876]",
+  "time" : {
+    "start" : 1607081713912,
+    "stop" : 1607081717403,
+    "duration" : 3491
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "388859f29e02430c",
+  "name" : "test_email_error[chromium-bbb@bb,bb-zxcv545]",
+  "time" : {
+    "start" : 1607081710496,
+    "stop" : 1607081713860,
+    "duration" : 3364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f331573501fdba95",
+  "name" : "test_get_by_id",
+  "time" : {
+    "start" : 1607081694386,
+    "stop" : 1607081694573,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4af540ab38b2c71d",
+  "name" : "test_email_error[chromium-cccc@ccc,cc-dfdsf7876]",
+  "time" : {
+    "start" : 1607081717450,
+    "stop" : 1607081720967,
+    "duration" : 3517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8fe167b53791e10",
+  "name" : "test_delete_booking",
+  "time" : {
+    "start" : 1607081694736,
+    "stop" : 1607081694922,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
