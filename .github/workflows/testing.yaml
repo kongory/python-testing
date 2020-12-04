@@ -21,6 +21,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install playwright
         python -m playwright install
+        pip install allure-pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
