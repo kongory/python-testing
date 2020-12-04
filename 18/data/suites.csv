@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 04 12:38:33 GMT 2020","Fri Dec 04 12:38:33 GMT 2020","223","tests.api","test_booking","","","","test_all_bookings",""
+"passed","Fri Dec 04 12:38:34 GMT 2020","Fri Dec 04 12:38:34 GMT 2020","184","tests.api","test_booking","","","","test_patch_booking",""
+"passed","Fri Dec 04 12:38:33 GMT 2020","Fri Dec 04 12:38:34 GMT 2020","177","tests.api","test_booking","","","","test_create_booking",""
+"passed","Fri Dec 04 12:38:37 GMT 2020","Fri Dec 04 12:38:39 GMT 2020","2480","tests.ui","test_cart","","","","test_confirmation[chromium]",""
+"passed","Fri Dec 04 12:38:34 GMT 2020","Fri Dec 04 12:38:34 GMT 2020","167","tests.api","test_booking","","","","test_get_by_id",""
+"passed","Fri Dec 04 12:38:35 GMT 2020","Fri Dec 04 12:38:35 GMT 2020","163","tests.api","test_booking","","","","test_delete_booking",""
+"passed","Fri Dec 04 12:38:34 GMT 2020","Fri Dec 04 12:38:34 GMT 2020","165","tests.api","test_booking","","","","test_update_booking",""

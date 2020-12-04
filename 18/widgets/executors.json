@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://kongory.github.io/python-testing",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #400661095",
+  "buildUrl" : "https://github.com/kongory/python-testing/actions/runs/400661095",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://kongory.github.io/python-testing/18/"
+} ]
