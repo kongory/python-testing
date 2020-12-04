@@ -1,8 +1,8 @@
 # python-testing
 Some tests for testing UI using Playwright, and API using requests. Tests run every each push and Allure results deploy on GitHub Pages.
 
-##Local running
-###Console
+## Local running
+### Console
 `pytest` - run tests without any report in 1 thread
 
 `pytest --headful` - Playwright will run in headful mode
