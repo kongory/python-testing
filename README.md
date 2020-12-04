@@ -5,7 +5,7 @@ Some tests for testing UI using Playwright, and API using requests. Tests run ev
 ###Console
 `pytest` - run tests without any report in 1 thread
 
-`--headful` - Playwright will run in headful mode
+`pytest --headful` - Playwright will run in headful mode
 
 `pytest -n <thread count>` - run tests in "thread count" threads
 
