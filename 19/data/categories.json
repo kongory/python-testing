@@ -1,0 +1,117 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: \n================================================================================\n\"chromium\" browser was not found.\nPlease complete Playwright installation via running\n\n    \"python -m playwright install\"\n\n================================================================================",
+      "children" : [ {
+        "name" : "test_confirmation[chromium]",
+        "uid" : "c3707214f886b8a4",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756137,
+          "stop" : 1610713756137,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      }, {
+        "name" : "test_cart[chromium]",
+        "uid" : "492c0af242867df4",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756551,
+          "stop" : 1610713756551,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      }, {
+        "name" : "test_sign_in_error[chromium-aaaa@aa.aa-123qew]",
+        "uid" : "c4b0880db7f9f6b0",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756626,
+          "stop" : 1610713756626,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'aaaa@aa.aa'", "'123qew'" ]
+      }, {
+        "name" : "test_email_error[chromium-aaaa@aa,aa-123qew]",
+        "uid" : "3a13f3990fe70507",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756701,
+          "stop" : 1610713756701,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'aaaa@aa,aa'", "'123qew'" ]
+      }, {
+        "name" : "test_sign_in_error[chromium-bbb@bb.bb-zxcv545]",
+        "uid" : "230195496a5f28c6",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756792,
+          "stop" : 1610713756792,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'bbb@bb.bb'", "'zxcv545'" ]
+      }, {
+        "name" : "test_email_error[chromium-bbb@bb,bb-zxcv545]",
+        "uid" : "fe929fd6fc108b77",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756865,
+          "stop" : 1610713756865,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'bbb@bb,bb'", "'zxcv545'" ]
+      }, {
+        "name" : "test_sign_in_error[chromium-cccc@ccc.cc-dfdsf7876]",
+        "uid" : "469cf8199e10c358",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713756937,
+          "stop" : 1610713756937,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'cccc@ccc.cc'", "'dfdsf7876'" ]
+      }, {
+        "name" : "test_email_error[chromium-cccc@ccc,cc-dfdsf7876]",
+        "uid" : "24de3684d2ba4c53",
+        "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610713757026,
+          "stop" : 1610713757026,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'cccc@ccc,cc'", "'dfdsf7876'" ]
+      } ],
+      "uid" : "e2d1ef4d2aef155488d4b57832839069"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
