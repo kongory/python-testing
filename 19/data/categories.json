@@ -6,12 +6,12 @@
       "name" : "Exception: \n================================================================================\n\"chromium\" browser was not found.\nPlease complete Playwright installation via running\n\n    \"python -m playwright install\"\n\n================================================================================",
       "children" : [ {
         "name" : "test_confirmation[chromium]",
-        "uid" : "c3707214f886b8a4",
+        "uid" : "bbd3aa6266e00100",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756137,
-          "stop" : 1610713756137,
+          "start" : 1610714229655,
+          "stop" : 1610714229655,
           "duration" : 0
         },
         "flaky" : false,
@@ -19,12 +19,12 @@
         "parameters" : [ "'chromium'" ]
       }, {
         "name" : "test_cart[chromium]",
-        "uid" : "492c0af242867df4",
+        "uid" : "8c626dd3f8708978",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756551,
-          "stop" : 1610713756551,
+          "start" : 1610714230087,
+          "stop" : 1610714230087,
           "duration" : 0
         },
         "flaky" : false,
@@ -32,12 +32,12 @@
         "parameters" : [ "'chromium'" ]
       }, {
         "name" : "test_sign_in_error[chromium-aaaa@aa.aa-123qew]",
-        "uid" : "c4b0880db7f9f6b0",
+        "uid" : "41fba1d3352087ae",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756626,
-          "stop" : 1610713756626,
+          "start" : 1610714230159,
+          "stop" : 1610714230159,
           "duration" : 0
         },
         "flaky" : false,
@@ -45,12 +45,12 @@
         "parameters" : [ "'chromium'", "'aaaa@aa.aa'", "'123qew'" ]
       }, {
         "name" : "test_email_error[chromium-aaaa@aa,aa-123qew]",
-        "uid" : "3a13f3990fe70507",
+        "uid" : "306e3b9d27cccf0e",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756701,
-          "stop" : 1610713756701,
+          "start" : 1610714230230,
+          "stop" : 1610714230230,
           "duration" : 0
         },
         "flaky" : false,
@@ -58,12 +58,12 @@
         "parameters" : [ "'chromium'", "'aaaa@aa,aa'", "'123qew'" ]
       }, {
         "name" : "test_sign_in_error[chromium-bbb@bb.bb-zxcv545]",
-        "uid" : "230195496a5f28c6",
+        "uid" : "2b5e80f4dee204b5",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756792,
-          "stop" : 1610713756792,
+          "start" : 1610714230315,
+          "stop" : 1610714230315,
           "duration" : 0
         },
         "flaky" : false,
@@ -71,12 +71,12 @@
         "parameters" : [ "'chromium'", "'bbb@bb.bb'", "'zxcv545'" ]
       }, {
         "name" : "test_email_error[chromium-bbb@bb,bb-zxcv545]",
-        "uid" : "fe929fd6fc108b77",
+        "uid" : "3cc1b858dc531ed9",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756865,
-          "stop" : 1610713756865,
+          "start" : 1610714230387,
+          "stop" : 1610714230387,
           "duration" : 0
         },
         "flaky" : false,
@@ -84,12 +84,12 @@
         "parameters" : [ "'chromium'", "'bbb@bb,bb'", "'zxcv545'" ]
       }, {
         "name" : "test_sign_in_error[chromium-cccc@ccc.cc-dfdsf7876]",
-        "uid" : "469cf8199e10c358",
+        "uid" : "57a9dbe6acae9efa",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756937,
-          "stop" : 1610713756937,
+          "start" : 1610714230455,
+          "stop" : 1610714230455,
           "duration" : 0
         },
         "flaky" : false,
@@ -97,12 +97,12 @@
         "parameters" : [ "'chromium'", "'cccc@ccc.cc'", "'dfdsf7876'" ]
       }, {
         "name" : "test_email_error[chromium-cccc@ccc,cc-dfdsf7876]",
-        "uid" : "24de3684d2ba4c53",
+        "uid" : "66274cb21329443b",
         "parentUid" : "e2d1ef4d2aef155488d4b57832839069",
         "status" : "broken",
         "time" : {
-          "start" : 1610713757026,
-          "stop" : 1610713757026,
+          "start" : 1610714230540,
+          "stop" : 1610714230540,
           "duration" : 0
         },
         "flaky" : false,

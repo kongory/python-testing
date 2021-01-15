@@ -1,0 +1,205 @@
+{
+  "uid" : "8c626dd3f8708978",
+  "name" : "test_cart[chromium]",
+  "fullName" : "tests.ui.test_cart#test_cart",
+  "historyId" : "efb49118fa5f13d4c56965976122209c",
+  "time" : {
+    "start" : 1610714230087,
+    "stop" : 1610714230087,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "Exception: \n================================================================================\n\"chromium\" browser was not found.\nPlease complete Playwright installation via running\n\n    \"python -m playwright install\"\n\n================================================================================",
+  "statusTrace" : "self = <playwright.browser_type.BrowserType object at 0x7f3852d110d0>\nexecutablePath = None, args = None, ignoreDefaultArgs = None\nhandleSIGINT = None, handleSIGTERM = None, handleSIGHUP = None, timeout = None\nenv = None, headless = None, devtools = None, proxy = None, downloadsPath = None\nslowMo = None, chromiumSandbox = None, firefoxUserPrefs = None\n\n    async def launch(\n        self,\n        executablePath: Union[str, Path] = None,\n        args: List[str] = None,\n        ignoreDefaultArgs: Union[bool, List[str]] = None,\n        handleSIGINT: bool = None,\n        handleSIGTERM: bool = None,\n        handleSIGHUP: bool = None,\n        timeout: int = None,\n        env: Env = None,\n        headless: bool = None,\n        devtools: bool = None,\n        proxy: ProxyServer = None,\n        downloadsPath: Union[str, Path] = None,\n        slowMo: int = None,\n        chromiumSandbox: bool = None,\n        firefoxUserPrefs: Dict[str, Union[str, int, bool]] = None,\n    ) -> Browser:\n        params = locals_to_params(locals())\n        normalize_launch_params(params)\n        try:\n>           return from_channel(await self._channel.send(\"launch\", params))\n\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/browser_type.py:77: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <playwright.connection.Channel object at 0x7f3852d11af0>\nmethod = 'launch', params = {}\n\n    async def send(self, method: str, params: Dict = None) -> Any:\n        if params is None:\n            params = {}\n        callback = self._connection._send_message_to_server(self._guid, method, params)\n>       result = await callback.future\nE       playwright.helper.Error: Failed to launch chromium because executable doesn't exist at /home/runner/.cache/ms-playwright/chromium-827102/chrome-linux/chrome\nE       Try re-installing playwright with \"npm install playwright\"\nE       Note: use DEBUG=pw:api environment variable and rerun to capture Playwright logs.\n\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/connection.py:39: Error\n\nDuring handling of the above exception, another exception occurred:\n\nlaunch_browser = <function launch_browser.<locals>.launch at 0x7f385254e1f0>\n\n    @pytest.fixture(scope=\"session\")\n    def browser(launch_browser: Callable[[], Browser]) -> Generator[Browser, None, None]:\n>       browser = launch_browser()\n\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py:121: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py:113: in launch\n    browser = getattr(playwright, browser_name).launch(**launch_options)\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/sync_api.py:6436: in launch\n    self._sync(\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/sync_base.py:107: in _sync\n    return future.result()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <playwright.browser_type.BrowserType object at 0x7f3852d110d0>\nexecutablePath = None, args = None, ignoreDefaultArgs = None\nhandleSIGINT = None, handleSIGTERM = None, handleSIGHUP = None, timeout = None\nenv = None, headless = None, devtools = None, proxy = None, downloadsPath = None\nslowMo = None, chromiumSandbox = None, firefoxUserPrefs = None\n\n    async def launch(\n        self,\n        executablePath: Union[str, Path] = None,\n        args: List[str] = None,\n        ignoreDefaultArgs: Union[bool, List[str]] = None,\n        handleSIGINT: bool = None,\n        handleSIGTERM: bool = None,\n        handleSIGHUP: bool = None,\n        timeout: int = None,\n        env: Env = None,\n        headless: bool = None,\n        devtools: bool = None,\n        proxy: ProxyServer = None,\n        downloadsPath: Union[str, Path] = None,\n        slowMo: int = None,\n        chromiumSandbox: bool = None,\n        firefoxUserPrefs: Dict[str, Union[str, int, bool]] = None,\n    ) -> Browser:\n        params = locals_to_params(locals())\n        normalize_launch_params(params)\n        try:\n            return from_channel(await self._channel.send(\"launch\", params))\n        except Exception as e:\n            if f\"{self.name}-\" in str(e):\n>               raise not_installed_error(f'\"{self.name}\" browser was not found.')\nE               Exception: \nE               ================================================================================\nE               \"chromium\" browser was not found.\nE               Please complete Playwright installation via running\nE               \nE                   \"python -m playwright install\"\nE               \nE               ================================================================================\n\n/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/browser_type.py:80: Exception",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1610714229995,
+      "stop" : 1610714229998,
+      "duration" : 3
+    },
+    "status" : "broken",
+    "statusMessage" : "Exception: \n================================================================================\n\"chromium\" browser was not found.\nPlease complete Playwright installation via running\n\n    \"python -m playwright install\"\n\n================================================================================\n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/_pytest/fixtures.py\", line 1124, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/_pytest/fixtures.py\", line 921, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py\", line 121, in browser\n    browser = launch_browser()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py\", line 113, in launch\n    browser = getattr(playwright, browser_name).launch(**launch_options)\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/sync_api.py\", line 6436, in launch\n    self._sync(\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/sync_base.py\", line 107, in _sync\n    return future.result()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/playwright/browser_type.py\", line 80, in launch\n    raise not_installed_error(f'\"{self.name}\" browser was not found.')\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1610714229657,
+      "stop" : 1610714229657,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser_name",
+    "time" : {
+      "start" : 1610714229994,
+      "stop" : 1610714229994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "playwright",
+    "time" : {
+      "start" : 1610714229657,
+      "stop" : 1610714229993,
+      "duration" : 336
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "launch_browser",
+    "time" : {
+      "start" : 1610714229994,
+      "stop" : 1610714229994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser_type_launch_args",
+    "time" : {
+      "start" : 1610714229994,
+      "stop" : 1610714229994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "playwright::0",
+    "time" : {
+      "start" : 1610714230611,
+      "stop" : 1610714230619,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Added item info"
+  }, {
+    "name" : "feature",
+    "value" : "Cart functionality tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.ui"
+  }, {
+    "name" : "suite",
+    "value" : "test_cart"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-556"
+  }, {
+    "name" : "thread",
+    "value" : "4272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.ui.test_cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser_name",
+    "value" : "'chromium'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8c626dd3f8708978.json",
+  "parameterValues" : [ "'chromium'" ]
+}

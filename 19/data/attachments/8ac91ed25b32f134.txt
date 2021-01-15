@@ -3,4 +3,4 @@ DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.her
 DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): restful-booker.herokuapp.com:443
 DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "POST /booking HTTP/1.1" 200 197
 DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): restful-booker.herokuapp.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "PUT /booking/14 HTTP/1.1" 200 170
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "PUT /booking/26 HTTP/1.1" 200 170

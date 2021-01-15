@@ -1,21 +1,21 @@
 {
-  "uid" : "16cc0c50b4cf3086",
-  "name" : "test_all_bookings",
-  "fullName" : "tests.api.test_booking#test_all_bookings",
-  "historyId" : "d3fce00b758a371b161cb3ad1cfc1baa",
+  "uid" : "a796ef459c8f5b98",
+  "name" : "test_create_booking",
+  "fullName" : "tests.api.test_booking#test_create_booking",
+  "historyId" : "26a9556c0d90411ac8ba54ccb68b38bd",
   "time" : {
-    "start" : 1610713751930,
-    "stop" : 1610713752261,
-    "duration" : 331
+    "start" : 1610714227445,
+    "stop" : 1610714227631,
+    "duration" : 186
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "base_url",
+    "name" : "_verify_url",
     "time" : {
-      "start" : 1610713751929,
-      "stop" : 1610713751929,
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
       "duration" : 0
     },
     "status" : "passed",
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "_verify_url",
+    "name" : "base_url",
     "time" : {
-      "start" : 1610713751929,
-      "stop" : 1610713751930,
-      "duration" : 1
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,11 +45,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Get all bookings",
+      "name" : "Create booking",
       "time" : {
-        "start" : 1610713751930,
-        "stop" : 1610713752260,
-        "duration" : 330
+        "start" : 1610714227445,
+        "stop" : 1610714227631,
+        "duration" : 186
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,11 +61,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "68ddff64187b3f9e",
+      "uid" : "76f18c7edea6b366",
       "name" : "log",
-      "source" : "68ddff64187b3f9e.txt",
+      "source" : "76f18c7edea6b366.txt",
       "type" : "text/plain",
-      "size" : 248
+      "size" : 249
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
@@ -75,11 +75,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "story",
+    "value" : "Create booking tests"
+  }, {
     "name" : "feature",
     "value" : "Check booking API"
-  }, {
-    "name" : "story",
-    "value" : "Receive all booking test"
   }, {
     "name" : "parentSuite",
     "value" : "tests.api"
@@ -88,10 +88,10 @@
     "value" : "test_booking"
   }, {
     "name" : "host",
-    "value" : "fv-az82-714"
+    "value" : "fv-az29-556"
   }, {
     "name" : "thread",
-    "value" : "4033-MainThread"
+    "value" : "4272-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -115,6 +115,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "16cc0c50b4cf3086.json",
+  "source" : "a796ef459c8f5b98.json",
   "parameterValues" : [ ]
 }

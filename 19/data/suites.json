@@ -6,78 +6,78 @@
       "name" : "test_booking",
       "children" : [ {
         "name" : "test_all_bookings",
-        "uid" : "16cc0c50b4cf3086",
+        "uid" : "4e8ff20b12eea165",
         "parentUid" : "a2538fe6fa0918ec022a465a331f2a4e",
         "status" : "passed",
         "time" : {
-          "start" : 1610713751930,
-          "stop" : 1610713752261,
-          "duration" : 331
+          "start" : 1610714227092,
+          "stop" : 1610714227379,
+          "duration" : 287
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_create_booking",
-        "uid" : "6cfd29a2e7189f14",
+        "uid" : "a796ef459c8f5b98",
         "parentUid" : "a2538fe6fa0918ec022a465a331f2a4e",
         "status" : "passed",
         "time" : {
-          "start" : 1610713752274,
-          "stop" : 1610713752595,
-          "duration" : 321
+          "start" : 1610714227445,
+          "stop" : 1610714227631,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_update_booking",
-        "uid" : "8678f259ce95963a",
+        "uid" : "12349de40674e5cb",
         "parentUid" : "a2538fe6fa0918ec022a465a331f2a4e",
         "status" : "passed",
         "time" : {
-          "start" : 1610713752917,
-          "stop" : 1610713753561,
-          "duration" : 644
+          "start" : 1610714227818,
+          "stop" : 1610714228174,
+          "duration" : 356
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_patch_booking",
-        "uid" : "3004111311002005",
+        "uid" : "56d3d69f946e64cd",
         "parentUid" : "a2538fe6fa0918ec022a465a331f2a4e",
         "status" : "passed",
         "time" : {
-          "start" : 1610713753888,
-          "stop" : 1610713754536,
-          "duration" : 648
+          "start" : 1610714228367,
+          "stop" : 1610714228727,
+          "duration" : 360
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_get_by_id",
-        "uid" : "c80793c0361f8c12",
+        "uid" : "ad4fbb16251bc54",
         "parentUid" : "a2538fe6fa0918ec022a465a331f2a4e",
         "status" : "passed",
         "time" : {
-          "start" : 1610713754539,
-          "stop" : 1610713755169,
-          "duration" : 630
+          "start" : 1610714228730,
+          "stop" : 1610714229091,
+          "duration" : 361
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_delete_booking",
-        "uid" : "4646932544f86983",
+        "uid" : "cfaedd23bce6c0ca",
         "parentUid" : "a2538fe6fa0918ec022a465a331f2a4e",
         "status" : "passed",
         "time" : {
-          "start" : 1610713755496,
-          "stop" : 1610713756135,
-          "duration" : 639
+          "start" : 1610714229273,
+          "stop" : 1610714229653,
+          "duration" : 380
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,12 +92,12 @@
       "name" : "test_cart",
       "children" : [ {
         "name" : "test_confirmation[chromium]",
-        "uid" : "c3707214f886b8a4",
+        "uid" : "bbd3aa6266e00100",
         "parentUid" : "edb2eb8ca0c2e6fa72848945092f939f",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756137,
-          "stop" : 1610713756137,
+          "start" : 1610714229655,
+          "stop" : 1610714229655,
           "duration" : 0
         },
         "flaky" : false,
@@ -105,12 +105,12 @@
         "parameters" : [ "'chromium'" ]
       }, {
         "name" : "test_cart[chromium]",
-        "uid" : "492c0af242867df4",
+        "uid" : "8c626dd3f8708978",
         "parentUid" : "edb2eb8ca0c2e6fa72848945092f939f",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756551,
-          "stop" : 1610713756551,
+          "start" : 1610714230087,
+          "stop" : 1610714230087,
           "duration" : 0
         },
         "flaky" : false,
@@ -122,12 +122,12 @@
       "name" : "test_login",
       "children" : [ {
         "name" : "test_sign_in_error[chromium-aaaa@aa.aa-123qew]",
-        "uid" : "c4b0880db7f9f6b0",
+        "uid" : "41fba1d3352087ae",
         "parentUid" : "4b0692450e3380276e0df9f8e493e707",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756626,
-          "stop" : 1610713756626,
+          "start" : 1610714230159,
+          "stop" : 1610714230159,
           "duration" : 0
         },
         "flaky" : false,
@@ -135,12 +135,12 @@
         "parameters" : [ "'chromium'", "'aaaa@aa.aa'", "'123qew'" ]
       }, {
         "name" : "test_email_error[chromium-aaaa@aa,aa-123qew]",
-        "uid" : "3a13f3990fe70507",
+        "uid" : "306e3b9d27cccf0e",
         "parentUid" : "4b0692450e3380276e0df9f8e493e707",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756701,
-          "stop" : 1610713756701,
+          "start" : 1610714230230,
+          "stop" : 1610714230230,
           "duration" : 0
         },
         "flaky" : false,
@@ -148,12 +148,12 @@
         "parameters" : [ "'chromium'", "'aaaa@aa,aa'", "'123qew'" ]
       }, {
         "name" : "test_sign_in_error[chromium-bbb@bb.bb-zxcv545]",
-        "uid" : "230195496a5f28c6",
+        "uid" : "2b5e80f4dee204b5",
         "parentUid" : "4b0692450e3380276e0df9f8e493e707",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756792,
-          "stop" : 1610713756792,
+          "start" : 1610714230315,
+          "stop" : 1610714230315,
           "duration" : 0
         },
         "flaky" : false,
@@ -161,12 +161,12 @@
         "parameters" : [ "'chromium'", "'bbb@bb.bb'", "'zxcv545'" ]
       }, {
         "name" : "test_email_error[chromium-bbb@bb,bb-zxcv545]",
-        "uid" : "fe929fd6fc108b77",
+        "uid" : "3cc1b858dc531ed9",
         "parentUid" : "4b0692450e3380276e0df9f8e493e707",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756865,
-          "stop" : 1610713756865,
+          "start" : 1610714230387,
+          "stop" : 1610714230387,
           "duration" : 0
         },
         "flaky" : false,
@@ -174,12 +174,12 @@
         "parameters" : [ "'chromium'", "'bbb@bb,bb'", "'zxcv545'" ]
       }, {
         "name" : "test_sign_in_error[chromium-cccc@ccc.cc-dfdsf7876]",
-        "uid" : "469cf8199e10c358",
+        "uid" : "57a9dbe6acae9efa",
         "parentUid" : "4b0692450e3380276e0df9f8e493e707",
         "status" : "broken",
         "time" : {
-          "start" : 1610713756937,
-          "stop" : 1610713756937,
+          "start" : 1610714230455,
+          "stop" : 1610714230455,
           "duration" : 0
         },
         "flaky" : false,
@@ -187,12 +187,12 @@
         "parameters" : [ "'chromium'", "'cccc@ccc.cc'", "'dfdsf7876'" ]
       }, {
         "name" : "test_email_error[chromium-cccc@ccc,cc-dfdsf7876]",
-        "uid" : "24de3684d2ba4c53",
+        "uid" : "66274cb21329443b",
         "parentUid" : "4b0692450e3380276e0df9f8e493e707",
         "status" : "broken",
         "time" : {
-          "start" : 1610713757026,
-          "stop" : 1610713757026,
+          "start" : 1610714230540,
+          "stop" : 1610714230540,
           "duration" : 0
         },
         "flaky" : false,

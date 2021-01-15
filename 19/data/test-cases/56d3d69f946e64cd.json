@@ -1,30 +1,60 @@
 {
-  "uid" : "4646932544f86983",
-  "name" : "test_delete_booking",
-  "fullName" : "tests.api.test_booking#test_delete_booking",
-  "historyId" : "bc590f9129e47c404aedde7ff501ddbc",
+  "uid" : "56d3d69f946e64cd",
+  "name" : "test_patch_booking",
+  "fullName" : "tests.api.test_booking#test_patch_booking",
+  "historyId" : "7a941ba5faa15167ef92b002214d7d6f",
   "time" : {
-    "start" : 1610713755496,
-    "stop" : 1610713756135,
-    "duration" : 639
+    "start" : 1610714228367,
+    "stop" : 1610714228727,
+    "duration" : 360
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "authorize",
     "time" : {
-      "start" : 1610713755172,
-      "stop" : 1610713755495,
-      "duration" : 323
+      "start" : 1610714228177,
+      "stop" : 1610714228366,
+      "duration" : 189
     },
     "status" : "passed",
     "steps" : [ {
       "name" : "Get token",
       "time" : {
-        "start" : 1610713755172,
-        "stop" : 1610713755495,
-        "duration" : 323
+        "start" : 1610714228177,
+        "stop" : 1610714228366,
+        "duration" : 189
       },
       "status" : "passed",
       "steps" : [ ],
@@ -41,45 +71,15 @@
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1610713751929,
-      "stop" : 1610713751929,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "_verify_url",
-    "time" : {
-      "start" : 1610713751929,
-      "stop" : 1610713751930,
-      "duration" : 1
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Create booking",
       "time" : {
-        "start" : 1610713755496,
-        "stop" : 1610713755815,
-        "duration" : 319
+        "start" : 1610714228367,
+        "stop" : 1610714228551,
+        "duration" : 184
       },
       "status" : "passed",
       "steps" : [ ],
@@ -90,11 +90,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Delete booking",
+      "name" : "Patch booking",
       "time" : {
-        "start" : 1610713755815,
-        "stop" : 1610713756135,
-        "duration" : 320
+        "start" : 1610714228551,
+        "stop" : 1610714228726,
+        "duration" : 175
       },
       "status" : "passed",
       "steps" : [ ],
@@ -106,11 +106,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "158cff53d7a26989",
+      "uid" : "e1207ddacfa46cf1",
       "name" : "log",
-      "source" : "158cff53d7a26989.txt",
+      "source" : "e1207ddacfa46cf1.txt",
       "type" : "text/plain",
-      "size" : 748
+      "size" : 749
     } ],
     "parameters" : [ ],
     "stepsCount" : 2,
@@ -120,11 +120,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "story",
+    "value" : "Patch created booking test"
+  }, {
     "name" : "feature",
     "value" : "Check booking API"
-  }, {
-    "name" : "story",
-    "value" : "Delete created booking by Id test"
   }, {
     "name" : "parentSuite",
     "value" : "tests.api"
@@ -133,10 +133,10 @@
     "value" : "test_booking"
   }, {
     "name" : "host",
-    "value" : "fv-az82-714"
+    "value" : "fv-az29-556"
   }, {
     "name" : "thread",
-    "value" : "4033-MainThread"
+    "value" : "4272-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -160,6 +160,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4646932544f86983.json",
+  "source" : "56d3d69f946e64cd.json",
   "parameterValues" : [ ]
 }

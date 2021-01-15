@@ -1,21 +1,51 @@
 {
-  "uid" : "c80793c0361f8c12",
-  "name" : "test_get_by_id",
-  "fullName" : "tests.api.test_booking#test_get_by_id",
-  "historyId" : "1738e2f299811af8b8222dbf2fdddef2",
+  "uid" : "cfaedd23bce6c0ca",
+  "name" : "test_delete_booking",
+  "fullName" : "tests.api.test_booking#test_delete_booking",
+  "historyId" : "bc590f9129e47c404aedde7ff501ddbc",
   "time" : {
-    "start" : 1610713754539,
-    "stop" : 1610713755169,
-    "duration" : 630
+    "start" : 1610714229273,
+    "stop" : 1610714229653,
+    "duration" : 380
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "base_url",
+    "name" : "authorize",
     "time" : {
-      "start" : 1610713751929,
-      "stop" : 1610713751929,
+      "start" : 1610714229095,
+      "stop" : 1610714229272,
+      "duration" : 177
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token",
+      "time" : {
+        "start" : 1610714229095,
+        "stop" : 1610714229271,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
       "duration" : 0
     },
     "status" : "passed",
@@ -27,11 +57,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "_verify_url",
+    "name" : "base_url",
     "time" : {
-      "start" : 1610713751929,
-      "stop" : 1610713751930,
-      "duration" : 1
+      "start" : 1610714227091,
+      "stop" : 1610714227091,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +77,9 @@
     "steps" : [ {
       "name" : "Create booking",
       "time" : {
-        "start" : 1610713754539,
-        "stop" : 1610713754860,
-        "duration" : 321
+        "start" : 1610714229273,
+        "stop" : 1610714229465,
+        "duration" : 192
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,11 +90,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Get booking by Id",
+      "name" : "Delete booking",
       "time" : {
-        "start" : 1610713754861,
-        "stop" : 1610713755169,
-        "duration" : 308
+        "start" : 1610714229466,
+        "stop" : 1610714229652,
+        "duration" : 186
       },
       "status" : "passed",
       "steps" : [ ],
@@ -76,11 +106,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "cbafa2bfb4537d16",
+      "uid" : "794d63efb929d010",
       "name" : "log",
-      "source" : "cbafa2bfb4537d16.txt",
+      "source" : "794d63efb929d010.txt",
       "type" : "text/plain",
-      "size" : 501
+      "size" : 748
     } ],
     "parameters" : [ ],
     "stepsCount" : 2,
@@ -91,7 +121,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "story",
-    "value" : "Get created booking by Id tests"
+    "value" : "Delete created booking by Id test"
   }, {
     "name" : "feature",
     "value" : "Check booking API"
@@ -103,10 +133,10 @@
     "value" : "test_booking"
   }, {
     "name" : "host",
-    "value" : "fv-az82-714"
+    "value" : "fv-az29-556"
   }, {
     "name" : "thread",
-    "value" : "4033-MainThread"
+    "value" : "4272-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -130,6 +160,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c80793c0361f8c12.json",
+  "source" : "cfaedd23bce6c0ca.json",
   "parameterValues" : [ ]
 }
