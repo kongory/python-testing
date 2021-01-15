@@ -1,0 +1,5 @@
+INFO     root:HomePage.py:23 Open Home page
+INFO     root:SignInPage.py:20 Type login: 'cccc@ccc.cc'
+INFO     root:SignInPage.py:22 Type password: 'cccc@ccc.cc'
+INFO     root:SignInPage.py:34 Click on the 'Sign In' button
+INFO     root:SignInPage.py:26 Get authentication error

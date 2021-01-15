@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): restful-booker.herokuapp.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "GET /booking HTTP/1.1" 200 519

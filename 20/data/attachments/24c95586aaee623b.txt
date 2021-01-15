@@ -1,0 +1,6 @@
+DEBUG    asyncio:selector_events.py:59 Using selector: EpollSelector
+INFO     root:HomePage.py:23 Open Home page
+INFO     root:HomePage.py:29 Waiting for the 'Blouse' item
+INFO     root:HomePage.py:31 Hover on the 'Blouse' item
+INFO     root:HomePage.py:33 Click on the 'Add to cart' button
+INFO     root:HomePage.py:38 Return confirmation message

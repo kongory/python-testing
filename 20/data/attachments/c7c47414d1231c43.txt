@@ -1,0 +1,8 @@
+INFO     root:HomePage.py:23 Open Home page
+INFO     root:HomePage.py:29 Waiting for the 'Printed Dress' item
+INFO     root:HomePage.py:31 Hover on the 'Printed Dress' item
+INFO     root:HomePage.py:33 Click on the 'Add to cart' button
+INFO     root:HomePage.py:44 Close confirmation window
+INFO     root:HomePage.py:49 Expand cart
+INFO     root:HomePage.py:55 Get title of the added item to cart
+INFO     root:HomePage.py:57 Get price of the added item to cart
