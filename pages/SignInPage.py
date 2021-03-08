@@ -1,6 +1,6 @@
 import logging
 
-from playwright.page import Page
+from playwright.sync_api import Page
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -16,7 +16,7 @@ class SignInPage:
         self.page = page
 
     def populate_credentials(self, email, password):
-        self.page.waitForSelector(self.EMAIL_ADDRESS_LOCATOR)
+        self.page.wait_for_selector(self.EMAIL_ADDRESS_LOCATOR)
         logger.info(f"Type login: '{email}'")
         self.page.type(self.EMAIL_ADDRESS_LOCATOR, email)
         logger.info(f"Type password: '{email}'")
@@ -24,12 +24,12 @@ class SignInPage:
 
     def get_authentication_error_text(self):
         logger.info("Get authentication error")
-        self.page.waitForSelector(self.AUTHENTICATION_ERROR)
-        text = self.page.textContent(self.AUTHENTICATION_ERROR)
+        self.page.wait_for_selector(self.AUTHENTICATION_ERROR)
+        text = self.page.text_content(self.AUTHENTICATION_ERROR)
 
         return text
 
     def click_sign_in_button(self):
-        self.page.waitForSelector(self.SIGN_IN_LOCATOR)
+        self.page.wait_for_selector(self.SIGN_IN_LOCATOR)
         logger.info("Click on the 'Sign In' button")
         self.page.click(self.SIGN_IN_LOCATOR)

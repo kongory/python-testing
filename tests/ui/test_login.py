@@ -18,7 +18,7 @@ def test_sign_in_error(page: Page, login, password):
     sign_in_page.populate_credentials(login, password)
     sign_in_page.click_sign_in_button()
 
-    assert "Authentication failed." in sign_in_page.get_authentication_error_text(),\
+    assert "Authentication failed." in sign_in_page.get_authentication_error_text(), \
         "Wrong authentication validation message"
 
 

@@ -109,7 +109,8 @@ def test_patch_booking(authorize):
 
     cookies = {'token': token}
     with allure.step('Patch booking'):
-        response = requests.patch(f"https://restful-booker.herokuapp.com/booking/{id}", json=booking_edited, cookies=cookies)
+        response = requests.patch(f"https://restful-booker.herokuapp.com/booking/{id}", json=booking_edited,
+                                  cookies=cookies)
 
     assert response.status_code == requests.codes.ok, f"Wrong status code: {response.status_code}"
 
