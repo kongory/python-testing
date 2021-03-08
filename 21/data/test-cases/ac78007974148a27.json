@@ -1,0 +1,165 @@
+{
+  "uid" : "ac78007974148a27",
+  "name" : "test_delete_booking",
+  "fullName" : "tests.api.test_booking#test_delete_booking",
+  "historyId" : "bc590f9129e47c404aedde7ff501ddbc",
+  "time" : {
+    "start" : 1615230041828,
+    "stop" : 1615230041938,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1615230039390,
+      "stop" : 1615230039390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "authorize",
+    "time" : {
+      "start" : 1615230041765,
+      "stop" : 1615230041827,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get token",
+      "time" : {
+        "start" : 1615230041765,
+        "stop" : 1615230041827,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1615230039390,
+      "stop" : 1615230039390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create booking",
+      "time" : {
+        "start" : 1615230041828,
+        "stop" : 1615230041879,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Delete booking",
+      "time" : {
+        "start" : 1615230041879,
+        "stop" : 1615230041938,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "200cffef333127ae",
+      "name" : "log",
+      "source" : "200cffef333127ae.txt",
+      "type" : "text/plain",
+      "size" : 748
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Delete created booking by Id test"
+  }, {
+    "name" : "feature",
+    "value" : "Check booking API"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_booking"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-31"
+  }, {
+    "name" : "thread",
+    "value" : "3067-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api.test_booking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac78007974148a27.json",
+  "parameterValues" : [ ]
+}

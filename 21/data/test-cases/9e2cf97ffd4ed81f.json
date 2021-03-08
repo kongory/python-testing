@@ -1,0 +1,135 @@
+{
+  "uid" : "9e2cf97ffd4ed81f",
+  "name" : "test_get_by_id",
+  "fullName" : "tests.api.test_booking#test_get_by_id",
+  "historyId" : "1738e2f299811af8b8222dbf2fdddef2",
+  "time" : {
+    "start" : 1615230041662,
+    "stop" : 1615230041763,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1615230039390,
+      "stop" : 1615230039390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1615230039390,
+      "stop" : 1615230039390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create booking",
+      "time" : {
+        "start" : 1615230041662,
+        "stop" : 1615230041714,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get booking by Id",
+      "time" : {
+        "start" : 1615230041714,
+        "stop" : 1615230041763,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6ee13773fcd0bcd6",
+      "name" : "log",
+      "source" : "6ee13773fcd0bcd6.txt",
+      "type" : "text/plain",
+      "size" : 501
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Get created booking by Id tests"
+  }, {
+    "name" : "feature",
+    "value" : "Check booking API"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_booking"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-31"
+  }, {
+    "name" : "thread",
+    "value" : "3067-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api.test_booking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e2cf97ffd4ed81f.json",
+  "parameterValues" : [ ]
+}

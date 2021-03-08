@@ -1,0 +1,239 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Check booking API",
+    "children" : [ {
+      "name" : "Receive all booking test",
+      "children" : [ {
+        "name" : "test_all_bookings",
+        "uid" : "caa1450bc7cfdec2",
+        "parentUid" : "d8576ea6476e517a30ec9e1d9f5036e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230039391,
+          "stop" : 1615230039462,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8576ea6476e517a30ec9e1d9f5036e3"
+    }, {
+      "name" : "Create booking tests",
+      "children" : [ {
+        "name" : "test_create_booking",
+        "uid" : "34461634b2247d44",
+        "parentUid" : "9cf7d0270a30955298223ecde5442c3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230039472,
+          "stop" : 1615230039518,
+          "duration" : 46
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9cf7d0270a30955298223ecde5442c3a"
+    }, {
+      "name" : "Update created booking test",
+      "children" : [ {
+        "name" : "test_update_booking",
+        "uid" : "9e93f7c34357a7f2",
+        "parentUid" : "a507b276ee151a15b188d7847bac291c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230039571,
+          "stop" : 1615230041502,
+          "duration" : 1931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a507b276ee151a15b188d7847bac291c"
+    }, {
+      "name" : "Patch created booking test",
+      "children" : [ {
+        "name" : "test_patch_booking",
+        "uid" : "58be2c06e5e9a0b6",
+        "parentUid" : "382b84b045760f8fc17ffa62d47e7591",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230041550,
+          "stop" : 1615230041659,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "382b84b045760f8fc17ffa62d47e7591"
+    }, {
+      "name" : "Get created booking by Id tests",
+      "children" : [ {
+        "name" : "test_get_by_id",
+        "uid" : "9e2cf97ffd4ed81f",
+        "parentUid" : "b617d1b22e04b9ae71185558ce497fb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230041662,
+          "stop" : 1615230041763,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b617d1b22e04b9ae71185558ce497fb4"
+    }, {
+      "name" : "Delete created booking by Id test",
+      "children" : [ {
+        "name" : "test_delete_booking",
+        "uid" : "ac78007974148a27",
+        "parentUid" : "7faa648e98f7ac31e9eb7ed391ffb702",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230041828,
+          "stop" : 1615230041938,
+          "duration" : 110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7faa648e98f7ac31e9eb7ed391ffb702"
+    } ],
+    "uid" : "2f6a32fd51d02ce3932c9df6c281cdf8"
+  }, {
+    "name" : "Cart functionality tests",
+    "children" : [ {
+      "name" : "Add item to cart",
+      "children" : [ {
+        "name" : "test_confirmation[chromium]",
+        "uid" : "d6a2f408920446f0",
+        "parentUid" : "c38f903fe6527ed91edab3a73e980f9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230042566,
+          "stop" : 1615230049520,
+          "duration" : 6954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      } ],
+      "uid" : "c38f903fe6527ed91edab3a73e980f9d"
+    }, {
+      "name" : "Added item info",
+      "children" : [ {
+        "name" : "test_cart[chromium]",
+        "uid" : "8e090834122b1a53",
+        "parentUid" : "dfa45db9bb5a386547a9598288c4d980",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615230049600,
+          "stop" : 1615230053373,
+          "duration" : 3773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      } ],
+      "uid" : "dfa45db9bb5a386547a9598288c4d980"
+    } ],
+    "uid" : "23a737c984300f791d05e5fd09f88a31"
+  }, {
+    "name" : "Log in negative tests",
+    "children" : [ {
+      "name" : "Authentication error",
+      "children" : [ {
+        "name" : "test_sign_in_error[chromium-aaaa@aa.aa-123qew]",
+        "uid" : "dc0695e2623e7dc2",
+        "parentUid" : "8ef97cccd5b3a1882255413ccfacc9ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230054045,
+          "stop" : 1615230058105,
+          "duration" : 4060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'aaaa@aa.aa'", "'123qew'" ]
+      }, {
+        "name" : "test_sign_in_error[chromium-bbb@bb.bb-zxcv545]",
+        "uid" : "4c7e3baa7aa41cd4",
+        "parentUid" : "8ef97cccd5b3a1882255413ccfacc9ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230061514,
+          "stop" : 1615230065148,
+          "duration" : 3634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'bbb@bb.bb'", "'zxcv545'" ]
+      }, {
+        "name" : "test_sign_in_error[chromium-cccc@ccc.cc-dfdsf7876]",
+        "uid" : "a2cb3127698ae7c3",
+        "parentUid" : "8ef97cccd5b3a1882255413ccfacc9ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230067735,
+          "stop" : 1615230070244,
+          "duration" : 2509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'cccc@ccc.cc'", "'dfdsf7876'" ]
+      } ],
+      "uid" : "8ef97cccd5b3a1882255413ccfacc9ef"
+    }, {
+      "name" : "Incorrect login error",
+      "children" : [ {
+        "name" : "test_email_error[chromium-aaaa@aa,aa-123qew]",
+        "uid" : "18f695558b7d38d",
+        "parentUid" : "0cb16c94aabcb1fce845c0c1ebe7f686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230058172,
+          "stop" : 1615230061451,
+          "duration" : 3279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'aaaa@aa,aa'", "'123qew'" ]
+      }, {
+        "name" : "test_email_error[chromium-bbb@bb,bb-zxcv545]",
+        "uid" : "68556e01f08b91c1",
+        "parentUid" : "0cb16c94aabcb1fce845c0c1ebe7f686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230065216,
+          "stop" : 1615230067670,
+          "duration" : 2454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'bbb@bb,bb'", "'zxcv545'" ]
+      }, {
+        "name" : "test_email_error[chromium-cccc@ccc,cc-dfdsf7876]",
+        "uid" : "37d68acfe64e8c07",
+        "parentUid" : "0cb16c94aabcb1fce845c0c1ebe7f686",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615230070317,
+          "stop" : 1615230073658,
+          "duration" : 3341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'", "'cccc@ccc,cc'", "'dfdsf7876'" ]
+      } ],
+      "uid" : "0cb16c94aabcb1fce845c0c1ebe7f686"
+    } ],
+    "uid" : "4b569f2909503ce3c9a6a9e431360259"
+  } ],
+  "name" : "behaviors"
+}

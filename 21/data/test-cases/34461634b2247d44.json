@@ -1,0 +1,120 @@
+{
+  "uid" : "34461634b2247d44",
+  "name" : "test_create_booking",
+  "fullName" : "tests.api.test_booking#test_create_booking",
+  "historyId" : "26a9556c0d90411ac8ba54ccb68b38bd",
+  "time" : {
+    "start" : 1615230039472,
+    "stop" : 1615230039518,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1615230039390,
+      "stop" : 1615230039390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1615230039390,
+      "stop" : 1615230039390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create booking",
+      "time" : {
+        "start" : 1615230039472,
+        "stop" : 1615230039518,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ee80096581d96900",
+      "name" : "log",
+      "source" : "ee80096581d96900.txt",
+      "type" : "text/plain",
+      "size" : 249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create booking tests"
+  }, {
+    "name" : "feature",
+    "value" : "Check booking API"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.api"
+  }, {
+    "name" : "suite",
+    "value" : "test_booking"
+  }, {
+    "name" : "host",
+    "value" : "fv-az121-31"
+  }, {
+    "name" : "thread",
+    "value" : "3067-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.api.test_booking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34461634b2247d44.json",
+  "parameterValues" : [ ]
+}

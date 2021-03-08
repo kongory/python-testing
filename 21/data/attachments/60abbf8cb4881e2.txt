@@ -1,0 +1,6 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): restful-booker.herokuapp.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "POST /auth HTTP/1.1" 200 27
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): restful-booker.herokuapp.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "POST /booking HTTP/1.1" 200 197
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): restful-booker.herokuapp.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://restful-booker.herokuapp.com:443 "PATCH /booking/15 HTTP/1.1" 200 168

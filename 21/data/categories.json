@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Wrong item info: '('Printed Dress', '$26.00')'\nassert ('Printed Dressd', '$26.00') == ('Printed Dress', '$26.00')\n  At index 0 diff: 'Printed Dressd' != 'Printed Dress'\n  Use -v to get the full diff",
+      "children" : [ {
+        "name" : "test_cart[chromium]",
+        "uid" : "8e090834122b1a53",
+        "parentUid" : "64b609ff19ff5c8a1a11f3b4071959ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615230049600,
+          "stop" : 1615230053373,
+          "duration" : 3773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'chromium'" ]
+      } ],
+      "uid" : "64b609ff19ff5c8a1a11f3b4071959ea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
